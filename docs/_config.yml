@@ -1,7 +1,13 @@
 title: Data Interview Blogs
-description: Daily DB interview prep
-remote_theme: pages-themes/cayman@v0.2.0
+author: Vanshaj Gupta
+description: Daily database interview prep
+
+# Use GitHub's default theme
+theme: minima
+
 plugins:
-  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-seo-tag
+
 markdown: kramdown
 permalink: /:title/
